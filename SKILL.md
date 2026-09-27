@@ -1,9 +1,9 @@
 ---
-name: disney-three-rooms
-description: Guide an idea through Walt Disney's three-room method, with separate Dreamer, Realist, and Critic conversations. Use when the user requests this method or wants to explore an idea through these three roles.
+name: three-rooms
+description: Guide an idea through the three-room method, with separate Dreamer, Realist, and Critic conversations. Use when the user requests this method or wants to explore an idea through these three roles.
 ---
 
-# Disney Three Rooms
+# Three Rooms
 
 Run an interactive conversation with the user, one room at a time: Dreamer → Realist → Critic → synthesis. Do not simulate the user's answers or deliver the whole exercise in one response.
 
