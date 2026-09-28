@@ -1,0 +1,14 @@
+name: Validate skill
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate skill package
+        run: node scripts/validate-skill.mjs
